@@ -10,6 +10,9 @@ if (require('electron-squirrel-startup')) {
   app.quit();
 }
 
+//turns off Chromium's use of the GPU for compositing, WebGL, and other hardware-accelerated features so the renderer falls back to software rendering
+app.disableHardwareAcceleration();
+
 const createWindow = (): void => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({

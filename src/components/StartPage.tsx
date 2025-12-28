@@ -1,5 +1,6 @@
 import React from 'react'
-import '../startPage.css'
+import { Link } from 'react-router'
+import '../stylesheets/StartPage.css'
 import AnimatedOwlClock from '../assets/AnimatedOwlClock.png'
 
 const StartPage: React.FC = () => {
@@ -11,12 +12,11 @@ const StartPage: React.FC = () => {
         </div>
         <h1 className="welcome-heading">Welcome to Clockin!</h1>
       </div>
-
       <div className="item">
-        <button className="arrow-button">
+        <Link to="/setup" className="arrow-button" role="button">
           Complete Setup
           <span className="arrow" />
-        </button>
+        </Link>
       </div>
     </main>
   )

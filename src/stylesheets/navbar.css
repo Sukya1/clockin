@@ -1,0 +1,43 @@
+.sidenav {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30vh;
+  background-color: #111;
+  color: #ffffff !important;
+  padding-top: 70px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.sidenav img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  padding-bottom: 20px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  font-size: 23px;
+  color: #818181 !important;
+  display: block;
+  transition: 0.3s;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1 !important;
+}
+
+/* @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} */
