@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
-import '../stylesheets/StartPage.css'
+import '../stylesheets/startPage.css'
 import AnimatedOwlClock from '../assets/AnimatedOwlClock.png'
 
 const StartPage: React.FC = () => {
